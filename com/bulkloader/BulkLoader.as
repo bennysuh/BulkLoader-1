@@ -81,11 +81,11 @@
 	
 }
 import flash.net.URLLoader;
-import amaze.EZBulkLoader;
+import com.bulkloader.BulkLoader;
 
 class exLoader extends URLLoader{
 	public var url:String;
-	public var parent:EZBulkLoader;
+	public var parent:BulkLoader;
 	public var id:uint;
 	public var isComplete:Boolean = false;
 }
